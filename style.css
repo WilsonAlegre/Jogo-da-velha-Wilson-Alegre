@@ -1,0 +1,92 @@
+body{
+    background: rgb(39, 56, 50);
+    text-align: -webkit-center;
+}
+
+td.posicao {
+    font: normal 50pt Arial;
+    background: rgb(62, 117, 108);
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    border: 2px ridge rgb(30, 190, 190)
+}
+
+div.botaoRecomecar {
+    font: normal 20pt Arial;
+    background: rgb(0, 82, 75);
+    color: rgb(255, 255, 255);
+    height: 60px;
+    width: 160px;
+    padding: 10px;
+    border-color: rgb(10, 10, 10);
+    text-align: center;
+    line-height: 0px;
+    margin-top: 35px;
+    border: 1.5px solid white;
+    border-radius: 45px;
+    -webkit-box-shadow: 9px 7px 5px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(0, 0, 0, 0.77);
+    box-shadow:         9px 7px 5px rgba(0, 0, 0, 0.77);
+}
+
+div.tema {
+    padding-top: 35px;
+    font: normal 14pt Arial;
+    color: rgb(255, 255, 255);
+}
+
+div.cores {
+    padding-top: 10px;
+}
+
+td.corVerde {
+    background: rgb(0, 82, 75);
+    border-radius: 45px;
+    height: 30px;
+    width: 75px;
+}
+
+td.corRoxa {
+    background: rgb(90, 7, 90);
+    border-radius: 45px;
+    height: 30px;
+    width: 75px;
+}
+
+td.corAzul {
+    background: rgb(12, 4, 90);
+    border-radius: 45px;
+    height: 30px;
+    width: 75px;
+}
+
+td.corVermelha {
+    background: rgb(190, 5, 5);
+    border-radius: 45px;
+    height: 30px;
+    width: 75px;
+}
+
+td.corBranca {
+    background: rgb(255, 255, 255);
+    border-radius: 45px;
+    height: 30px;
+    width: 75px;
+}
+
+tr {
+    color: rgb(238, 215, 8);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.texto {
+    color: white;
+}
+
+.borderColor {
+    border: 1px solid rgb(255, 255, 255);
+}

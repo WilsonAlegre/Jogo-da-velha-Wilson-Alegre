@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script language="javascript" src="script.js"></script>
+    <title>Jogo da velha</title>
+</head>
+<body id="body">
+    <table>
+        <tbody class="cursor-pointer">
+            <tr>
+                 <td class="posicao" id="1" onmouseover="overPosition(this.id)" onmouseout="outPosition(this.id)" onclick="clicou(this.id)"/>
+                 <td class="posicao" id="2" onmouseover="overPosition(this.id)" onmouseout="outPosition(this.id)" onclick="clicou(this.id)"/>
+                 <td class="posicao" id="3" onmouseover="overPosition(this.id)" onmouseout="outPosition(this.id)" onclick="clicou(this.id)"/>
+            </tr>
+            <tr>
+                <td class="posicao" id="4" onmouseover="overPosition(this.id)" onmouseout="outPosition(this.id)" onclick="clicou(this.id)"/>
+                <td class="posicao" id="5" onmouseover="overPosition(this.id)" onmouseout="outPosition(this.id)" onclick="clicou(this.id)"/>
+                <td class="posicao" id="6" onmouseover="overPosition(this.id)" onmouseout="outPosition(this.id)" onclick="clicou(this.id)"/>
+            </tr>
+            <tr>
+                <td class="posicao" id="7" onmouseover="overPosition(this.id)" onmouseout="outPosition(this.id)" onclick="clicou(this.id)"/>
+                <td class="posicao" id="8" onmouseover="overPosition(this.id)" onmouseout="outPosition(this.id)" onclick="clicou(this.id)"/>
+                <td class="posicao" id="9" onmouseover="overPosition(this.id)" onmouseout="outPosition(this.id)" onclick="clicou(this.id)"/>
+            </tr>
+        </tbody>
+    </table>
+    <span style="font-size: 25px; color: whitesmoke;">
+        <!-- <p>Jogador da vez: <strong id="vez">1</strong></p> -->
+        <p class="texto"><strong id="infoJogo"></strong></p>
+    </span>
+    <div class="botaoRecomecar borderColor" id="btnRestart" style="cursor: pointer;" onclick="restart()" onmouseover="overButton()" 
+        onmouseout="outButton()">
+        <p class="texto"> Recomeçar</p>
+    </div>
+    <div class="tema">
+        <span class="texto">Alterar tema do jogo</span>
+        <div class="cores">
+            <table>
+                <tbody class="cursor-pointer">
+                    <tr>
+                        <td class="corVerde borderColor" id="verde" onmouseover="overCor(this.id)" onmouseout="outCor(this.id)" onclick="alteraTema(this.id)"></td>
+                        <td class="corAzul borderColor" id="azul" onmouseover="overCor(this.id)" onmouseout="outCor(this.id)" onclick="alteraTema(this.id)"></td>
+                        <td class="corRoxa borderColor" id="roxo" onmouseover="overCor(this.id)" onmouseout="outCor(this.id)" onclick="alteraTema(this.id)"></td>
+                        <td class="corVermelha borderColor" id="vermelho" onmouseover="overCor(this.id)" onmouseout="outCor(this.id)" onclick="alteraTema(this.id)"></td>
+                        <td class="corBranca borderColor" id="branco" onmouseover="overCor(this.id)" onmouseout="outCor(this.id)" onclick="alteraTema(this.id)"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
